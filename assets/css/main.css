@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
-/*
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2393,6 +2387,18 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+			.image.avatar {
+				border-radius: 100%;
+			}
+			
+				.image.avatar:before {
+					display: none;
+				}
+	
+				.image.avatar img {
+					border-radius: 100%;
+					width: 200px;
+				}
 
 /* List */
 
@@ -2917,12 +2923,17 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/gavin-spear-ymJt1_jLreY-unsplash.jpg");
 		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-size: cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+	}
+
+	.background-tint {
+		background-color: rgba(15, 39, 118, 0.594);
+		background-blend-mode: multiply;
 	}
 
 		#header a {
@@ -3113,9 +3124,9 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/gavin-spear-ymJt1_jLreY-unsplash.jpg");
 		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-size: cover;
 		text-align: center;
 	}
 
