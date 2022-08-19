@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Audry Hsu Portfolio</title>
+		<title>Audry Hsu</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -15,42 +15,60 @@
 					<div class="img-container">
 						<a href="#" class="image avatar"><img src="images/headshot.png" alt="headshot" /></a>
 					</div>
-						<h1><strong>Audry Hsu</strong>, a software engineer<br />
-						</h1>
-					<p>I am passionate about translating <strong>ideas into code</strong> and interested in building scalable, distributed applications. I recently built <a href="https://fana-io.github.io/" target="_blank" style="color: #FEB13A;">Fána</a>, a feature flagging platform specializing in audience-targeting for testing new features in production, and deployed it on Docker and AWS.
+						<h1><strong>Audry Hsu</strong></h1>
+						<h3>Software Engineer</h3>
+					<p>I am passionate about translating <strong>ideas into code</strong> and interested in building scalable, distributed applications. I recently built <a href="https://fana-io.github.io/" target="_blank" style="color: #FEB13A;">Fána</a>, an open-source feature flagging platform specializing in audience-targeting and deployed it on Docker and AWS.
 					</p>
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/audry-hsu/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<div class="icon-container">
+
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/audry-hsu/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="https://www.audryhsu.com/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 						<li><a href="#" class="icon alt fa-regular fa-file"><span class="label">Resume</span></a></li>
-						<li><a href="audry.hsu@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+						<!-- <li><a href="audry.hsu@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li> -->
 					</ul>
+				</div>
 					<ul class="actions special">
 						<li><a href="#one" class="button scrolly">Recent Work</a></li>
 					</ul>
 				</div>
 			</section>
 
-		<!-- One -->
+		<!-- Fana -->
 			<section id="one" class="main style1">
 				<div class="container">
+					<div class="row aln-center gtr-150" style="padding-bottom: 2em;">
+						<div class="fana-logo-container">
+							<a href="https://fana-io.github.io/" target="_blank">
+								<img id="fana-logo" src="images/fana_logo_color_forwhitebg.png" />
+							</a>
+						</div>
+					</div>
+
 					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
+						<div class="col-5 col-12-medium">
 							<header class="major">
-								<h2>Fána is an open-source feature flagging platform that enables developers to <strong class="emphasis-color">build confidence</strong> in their feature releases while testing in production.</h2>
+								<h2><a href="https://fana-io.github.io/" target="_blank">Fána</a> is an open-source feature flagging platform that enables developers to <strong class="emphasis-color">build confidence</strong> in their feature releases.</h2>
 							</header>
 							<p>Fána lets you test new features in production by targeting specific audiences like beta users and then rolling out to larger audiences over time. Deploy with the peace of mind that if anything goes wrong, you can revert it with a single click.</p>
-							<a href="#" class="button">Read the Case Study</a>
+							<a href="https://fana-io.github.io/" target="_blank" class="button wide primary">Read the Case Study</a>
 						</div>
-						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit shadow"><img src="images/dash-demo.gif" alt="fana-dashboard" /></span>
+
+						<div class="col-7 col-12-medium imp-medium">
+							<span class="image fit shadow">
+								<img src="images/dash-demo.gif" alt="fana-dashboard" /></span>
+							<!-- <span class="image fit">
+								<span class="image shadow">
+									<img src="images/dashboard_flags_dark.png" alt="fana-toggles"
+									style="max-width: 300px;"/></span>
+								</span> -->
 						</div>
 					</div>
 				</div>
 			</section>
 
 		<!-- Two -->
-			<section id="two" class="main style2">
+			<!-- <section id="two" class="main style2">
 				<div class="container">
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium">
@@ -74,65 +92,49 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
-		<!-- Three -->
-			<section id="three" class="main style1 special">
+		<!-- Projects -->
+			<section id="three" class="main style2 special">
 				<div class="container">
+					<img style="max-width: 120px; width: 20%" src="/images/coding_icon.png"/>
 					<header class="major">
-						<h2>Adipiscing amet consequat</h2>
+						<h2>Other Projects </h2>
 					</header>
-					<p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+					<p>I have experience building projects with various  technologies such as Node.js, Express, Go, PostgreSQL, MongoDB, React/Redux, vanilla JavaScript, and HTML/CSS.</p>
 					<div class="row gtr-150">
-						<div class="col-4 col-12-medium">
+						<div class="col-3 col-12-medium">
 							<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
+							<h3>Mello</h3>
+							<p>A kanban-styled project management app based on Trello including CRUD operations, scheduling, and tagging for cards and lists. Built with Node.js/Express, React/Redux, and MongoDB.</p>
 						</div>
-						<div class="col-4 col-12-medium">
+						<div class="col-3 col-12-medium">
 							<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
+							<h3>Request Bucket</h3>
+							<p>A tool to inspect and debug webhooks. Built with Node.js/Express, WebSockets API, React, PostgreSQL, and MongoDB.</p>
 						</div>
-						<div class="col-4 col-12-medium">
+						<div class="col-3 col-12-medium">
 							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
+							<h3>Plantopedia</h3>
+							<p>A plant encyclopedia API to help plant parents to track and manage their plant babies' needs. Built with Go, gorm, and PostgreSQL.</p>
+						</div>
+						<div class="col-3 col-12-medium">
+							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<h3>Checkout</h3>
+							<p>An e-commerce shopping cart app with database backend. Built with Node.js/Express, React, MongoDB, and containerized with Docker.</p>
 						</div>
 					</div>
 				</div>
+				
 			</section>
-
-		<!-- Four -->
-			<section id="four" class="main style2 special">
-				<div class="container">
-					<header class="major">
-						<h2>Ipsum feugiat consequat?</h2>
-					</header>
-					<p>Sed lacus nascetur ac ante amet sapien.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button wide primary">Sign Up</a></li>
-						<li><a href="#" class="button wide">Learn More</a></li>
-					</ul>
-				</div>
-			</section>
-
-		<!-- Five -->
-		<!--
-			<section id="five" class="main style1">
-				<div class="container">
-					<header class="major special">
-						<h2>Elements</h2>
-					</header>
+			
+			<!-- Five -->
+			<!-- 		
+				<section id="five" class="main style1">
+					<div class="container">
+						<header class="major special">
+							<h2>Elements</h2>
+						</header>
 
 					<section>
 						<h4>Text</h4>
@@ -435,22 +437,22 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
 							</div>
 						</div>
-						<h5>Left &amp; Right</h5>
-						<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-					</section>
-
 				</div>
 			</section>
-		-->
+		 -->
 
 		<!-- Footer -->
 			<section id="footer" class="background-tint">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/audry-hsu/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com/audryhsu" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="audry.hsu@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
+				<div class="container" style="padding-bottom: 2em;">
+					<header class="major">
+						<h2>
+							Connect with me  <img src="images/334104_email_message_send_paper plane_icon.png" alt="contact icon" style="max-width: 40px; width: 20%"/></h2>
+					</header>
+					<ul class="actions special">
+						<li><a href="#" class="button wide primary">Resume</a></li>
+						<li><a href="https://www.linkedin.com/in/audry-hsu/" class="button wide" target="_blank">LinkedIn</a></li>
+					</ul>
+				</div>
 				<ul class="copyright">
 					<li>&copy; Audry Hsu</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
